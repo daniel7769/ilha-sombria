@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>O Enigma da Ilha Sombria</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/ilha-mapa.png" alt="Mapa antigo mostrando a Ilha Sombria">
+            <p>Ao folhear um livro antigo na biblioteca de sua avó, você encontra um mapa misterioso. O mapa aponta para uma ilha esquecida no meio do oceano, onde dizem existir uma força mágica capaz de conceder qualquer desejo. Intrigado, você decide embarcar nessa aventura.</p>
+            <button class="btn-proximo" data-proximo="1">Explorar a Ilha Sombria</button>
+            <button class="btn-proximo" data-proximo="2">Ignorar o mapa e voltar para casa</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <img src="img/tempestade-mar.png" alt="Barco em meio a uma tempestade no mar">
+            <p>Você decide ir até o porto para pegar um barco em direção à Ilha Sombria. Durante a viagem, uma tempestade começa a se formar no horizonte.</p>
+            <button class="btn-proximo" data-proximo="3">Enfrentar a tempestade e seguir em frente</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e retornar para o porto</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <img src="img/final-sereno.png" alt="Pessoa olhando o mar ao entardecer">
+            <p>Você decide voltar para casa, mas a imagem da ilha misteriosa fica na sua mente. Quem sabe um dia você retome essa jornada?</p>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <img src="img/ilha-sombria.png" alt="Vista aérea de uma ilha coberta por neblina">
+            <p>Apesar da tempestade, você decide seguir em frente. A aventura não pode esperar! Você encontra um barco escondido na neblina que te leva até a ilha.</p>
+            <button class="btn-proximo" data-proximo="5">Desembarcar na Ilha Sombria</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/final-sereno.png" alt="Vista tranquila no porto após a tempestade">
+            <p>O medo fala mais alto, e você retorna para o porto. Mas quando olha para trás, vê a ilha se dissipando na névoa, como se tivesse sido um sonho.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <img src="img/templo-antigo.png" alt="Templo antigo coberto por vegetação e inscrições luminosas">
+            <p>Ao desembarcar na Ilha Sombria, você se depara com um antigo templo coberto por vegetação. Na entrada, uma enigmática inscrição está gravada em pedras.</p>
+            <button class="btn-proximo" data-proximo="6">Decifrar a inscrição do templo</button>
+            <button class="btn-proximo" data-proximo="7">Explorar a floresta ao redor</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <img src="img/templo-antigo.png" alt="Inscrição misteriosa no templo">
+            <p>A inscrição diz: "A chave para o desejo está no coração da tempestade". Mas o que isso significa? O que você fará agora?</p>
+            <button class="btn-proximo" data-proximo="8">Voltar para o barco</button>
+            <button class="btn-proximo" data-proximo="9">Seguir até o coração da ilha</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <img src="img/floresta-misteriosa.png" alt="Floresta escura com luzes misteriosas">
+            <p>Você explora a floresta densa e logo encontra um rio misterioso com águas tão escuras quanto a noite. Um barco à deriva está amarrado a uma árvore, esperando por você.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pelo rio</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <img src="img/final-sereno.png" alt="Partindo da ilha em um barco sob o luar">
+            <p>Desistindo da aventura, você retorna ao barco. Mas a Ilha Sombria parece desaparecer à medida que você se afasta, como se nunca tivesse existido.</p>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <img src="img/vale-magico.png" alt="Vale iluminado por uma pedra flutuante azul brilhante">
+            <p>Você segue pelo rio e, ao final, encontra um vale iluminado por uma estranha luz azul. No centro, uma pedra mágica flutua, pulsando com energia. Uma voz ecoa em sua mente, pedindo para fazer um desejo.</p>
+            <button class="btn-proximo" data-proximo="10">Fazer um desejo</button>
+            <button class="btn-proximo" data-proximo="11">Observar a pedra sem fazer nada</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <img src="img/mundo-desejo.png" alt="Um portal mágico se abrindo com energia azul e dourada">
+            <p>Você faz um desejo e, de repente, a pedra se quebra, liberando uma onda de energia que te leva para um outro plano. Você se encontra em um mundo onde seus desejos se tornam realidade, mas tudo tem um preço.</p>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/final-sereno.png" alt="Amanhecer tranquilo na ilha após a jornada">
+            <p>Você escolhe não fazer nenhum desejo. A pedra desaparece, e com ela, o poder da ilha. No entanto, você sente que algo mudou dentro de você, talvez a verdadeira aventura esteja na jornada e não no destino.</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
